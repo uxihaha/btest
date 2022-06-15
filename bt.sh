@@ -3,3 +3,4 @@ wget http://download.bt.cn/install/update/LinuxPanel-7.7.0.zip && unzip LinuxPan
 cd LinuxPanel-7.7.0/panel
 bash update.sh
 rm -rf  /www/server/panel/data/bind.pl
+bt
