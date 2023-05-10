@@ -24,3 +24,5 @@ firewall-cmd --list-ports
 关闭端口：
 firewall-cmd --zone=public --remove-port=8080/tcp --permanent
 
+# 若有自己的证书，则在宝塔面板设置中开启SSL，然后点击同意开启后，上传自己的证书到www/server/panel/ssl目录下，修改key文件为privateKey.pem，修改pem文件为certificate.pem，完成后输入/etc/init.d/bt restart即可尝试https协议访问宝塔面板。
+
