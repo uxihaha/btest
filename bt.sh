@@ -3,4 +3,6 @@ unzip LinuxPanel-7.7.0.zip && rm LinuxPanel-7.7.0.zip
 cd panel
 bash update.sh
 rm -rf  /www/server/panel/data/bind.pl
+bt 6
+bt 5
 bt 14
